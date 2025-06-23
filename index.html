@@ -87,7 +87,14 @@
       100% { transform: translate(0%, -300%) scale(1.5); opacity: 0; }
     }
 
- 
+    @media (max-width: 480px) {
+      .logo-text {
+        font-size: clamp(3.5rem, 15vw, 6rem);
+      }
+      .emoji {
+         font-size: clamp(2rem, 12vw, 3rem);
+      }
+    }
   </style>
 </head>
 <body>
